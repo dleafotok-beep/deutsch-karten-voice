@@ -19,3 +19,5 @@ jobs:
         run: python voice_worker.py
         env:
           FAM: ${{ secrets.FAM }}
+          AZURE_KEY: ${{ secrets.AZURE_KEY }}
+          AZURE_REGION: germanywestcentral
